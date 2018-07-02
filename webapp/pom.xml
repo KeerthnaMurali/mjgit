@@ -47,7 +47,7 @@
             <artifactId>tomcat7-maven-plugin</artifactId>
             <version>2.2</version>
             <configuration>
-                <url>http://localhost:8080</url>
+                <url>http://localhost:8080/manager</url>
                 <server>integration-tomcat</server>
                 <path>/webapp</path>
             </configuration>
